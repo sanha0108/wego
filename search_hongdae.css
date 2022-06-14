@@ -1,0 +1,244 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			color: #5b5b5b;
+			font-family: "pretendard";
+			font-weight: 300;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		@font-face{
+			src: url("pretendard-midium.otf/pretendard-regular.otf/pretendard-thin.otf/pretendard-bold.otf");
+			font-family: "pretendard";
+		}
+
+		@font-face{
+			src: url("SDSamliphopangcheBasic.otf");
+			font-family: "SDsamlip";
+		}
+
+		body{
+			width: 1920px;
+		}
+
+		.header{
+			padding: 36px 360px 40px 360px;
+			vertical-align: middle;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			align-items: center;
+			line-height: 40px;
+		}
+			.header_menu{
+				float: left;
+			}
+				.header_menu img{
+					width: 48px;
+					height: 48px;
+					line-height: 40px;
+					vertical-align: middle;
+				}
+			.header_logo{
+				float: left;
+			}
+				.header_logo img{
+					width: 160px;
+					vertical-align: middle;
+					margin-left: 475px;
+					margin-right: 475px;
+					line-height: 40px;
+				}
+			.header_login{
+
+			}
+				.header_login img{
+					width: 48px;
+					height: 48px;
+					line-height: 40px;
+					vertical-align: middle;
+				}
+
+		.navbar_back{
+			width: 1920px;
+			height: 56px;
+			background-color: #E87A3C;
+			margin-bottom: 76px;
+		}
+			.navbar_container{
+				width: 1152px;
+				height: 32px;
+				margin: 12px auto;
+			}
+			.navitem_left{
+				height: 20px;
+			}
+				.navitem{
+					margin: 16px 56px 16px 0px;
+					font-size: 20px;
+					float: left;
+				}
+				.navitem_b{
+					margin: 16px 56px 16px 0px;
+					margin-right: 56px;
+					font-size: 20px;
+					float: left;
+				}
+				.navitem a{
+					color: white;
+				}
+				.navitem_b a{
+					color: white;
+					font-weight: bold;
+				}
+
+			.navitem_right{
+				float: right;
+			}
+				.navitem_right input{
+					width: 248px;
+					height: 32px;
+					background-color: white;
+					border-radius: 5px;
+					border-style: none;
+					margin: 12px 0;
+
+				}
+				.navitem_right img{
+					width: 26px;
+					height: 26px;
+					position: relative;
+					left: 240px;
+					top: 8px;
+				}
+
+		.routebar{
+			height: 24px;
+			margin-left: 376px;
+			vertical-align: middle;
+		}
+			.routeitem{
+				margin-right: 8px;
+				float: left;
+			}
+			.home{
+				width: 24px;
+				height: 24px;
+				line-height: 24px;
+				vertical-align: middle;
+			}
+			.next{
+				width: 18px;
+				height: 18px;
+				line-height: 24px;
+				vertical-align: middle;
+			}
+			.routeitem p{
+				font-size: 16px;
+				line-height: 24px;
+			}
+			.r_text2{
+				font-weight: bold;
+				color: #E87A3C;
+			}
+
+		.line{
+			margin: 0 360px;
+		}
+
+		.content_container{
+			width: 1080px;
+			height: 1352px;
+			margin: 32px auto 0 auto;
+		}
+
+		.content_item_r{
+			width: 336px;
+			height: 424px;
+			float: left;
+			margin-bottom: 40px;
+		}
+		.content_item{
+			width: 336px;
+			height: 424px;
+			float: left;
+			margin-right: 36px;
+			margin-bottom: 40px;
+		}
+			
+			.content_img img{
+				width: 336px;
+				height: 336px;
+			}
+			.content_text{
+				width: 336px;
+				height: 88px;
+				padding-top: 16px;
+				padding-left: 20px;
+				background-color: #F3F3F3;
+				margin-top: -4px;
+			}
+			.title{
+				font-size: 24px;
+				color: #E87A3C;
+				margin-bottom: 6px;
+				font-weight: bold;
+			}
+			.c_text{
+				font-size: 14px;
+			}
+
+		.bottom_back{
+			height: 192px;
+			background-color: #EBEBEB;
+			padding-top: 32px;
+			margin-top: 96px;
+		}
+		.bottom_container{
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.left{
+			float: left;
+		}
+			.b_1{
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.b_2{
+				font-size: 32px;
+				font-weight: bold;
+				margin-bottom: 8px;
+			}
+			.b_3{
+				font-size: 14px;
+				font-weight: 400;
+				margin-bottom: 12px;
+			}
+			.link{
+				font-size: 12px;
+			}
+				.link_text{
+					font-weight: 500;
+					margin-right: 8px;
+				}
+
+		.right{
+			float: right;
+		}
+			.right img{
+				width: 98.74px;
+				height: 24.89px;
+				margin-top: 60px;
+				margin-bottom: 8px;
+				margin-left: 125px;
+			}
+			.b_4{
+				font-size: 11px;
+				font-weight: 400;
+			}
