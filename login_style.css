@@ -1,0 +1,129 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			color: #5b5b5b;
+			font-family: "pretendard";
+			font-weight: 300;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		@font-face{
+			src: url("font/pretendard-midium.otf/pretendard-regular.otf/pretendard-thin.otf/pretendard-bold.otf");
+			font-family: "pretendard";
+		}
+
+		@font-face{
+			src: url("font/SDSamliphopangcheBasic.otf");
+			font-family: "SDsamlip";
+		}
+
+		.back{
+			background-image: url(https://i.postimg.cc/4yFnzzxf/minku-kang-Dpzk-BQq7ej0-unsplash.jpg);
+			width: 1920px;
+			height: 1080px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+
+		.container{
+			width: 496px;
+			height: 680px;
+			background-color: rgba(255, 255, 255, 0.9);
+			position: absolute;
+			right: 0;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			border-radius: 30px;
+		}
+
+		.logo img{
+			width: 188px;
+			height: 48px;
+			margin: 112px 154px 48px 154px;
+		}
+
+		.text-field1{
+			width: 344px;
+			height: 56px;
+			padding: 19px 0px 19px 32px;
+			font-size: 16px;
+			margin: 0px 72px;
+			border-radius: 10px 10px 0 0;
+			border-style: solid;
+			border-color: #5b5b5b;
+			border-width: 1px;
+			color: #5b5b5b;
+		}
+
+		.text-field2{
+			width: 344px;
+			height: 56px;
+			padding: 19px 0px 19px 32px;
+			font-size: 16px;
+			margin: 0px 72px;
+			border-radius: 0 0 10px 10px;
+			border-style: solid;
+			border-color: #5b5b5b;
+			border-width: 1px;
+			color: #5b5b5b;
+			margin-top: -2px;
+		}
+
+		.submit-btn{
+			width: 344px;
+			height: 56px;
+			font-size: 16px;
+			padding: 19px 149px;
+			color: white;
+			font-weight: bold;
+			border-radius: 10px;
+			background-color: #E87A3C;
+			border-style: none;
+			margin: 17px 72px 27px 72px;
+		}
+
+		.forget{
+			font-size: 14px;
+			width: 248px;
+			height: 18px;
+			display: inline-block;
+			margin: 0 120px;
+			margin-bottom: 47px;
+		}
+			.f_1{
+				float: left;
+				margin-right: 19px;
+			}
+			.f_2{
+				float: left;
+			}
+			.f_3{
+				float: right;
+			}
+
+		.sns_login{
+			width: 216px;
+			margin: 0 136px 0 146px;
+			font-size: 14px;
+		}
+
+		.sns_icon{
+			width: 220px;
+			height: 60px;
+			margin: 17px 138px 0 138px;
+		}
+		.sns_icon img{
+			width: 60px;
+			height: 60px;
+		}
+		
+		.naver{
+			margin: 0 16px;
+		}
